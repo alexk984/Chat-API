@@ -1,5 +1,5 @@
 {
-    "name": "whatsapp/chat-api",
+    "name": "alexk984/chat-api",
     "description": "The PHP WhatsApp library",
     "license": "GPL-3.0+",
     "keywords": [
@@ -7,17 +7,10 @@
         "WhatsAPI",
         "Chat-API"
     ],
-    "authors": [
-        {
-            "role": "Contributors",
-            "name": "Chat API Contributing Team",
-            "homepage": "https://github.com/mgp25/Chat-API/graphs/contributors"
-        }
-    ],
     "support": {
-        "issues": "https://github.com/mgp25/Chat-API/issues",
-        "wiki": "https://github.com/mgp25/Chat-API/wiki",
-        "source": "https://github.com/mgp25/Chat-API"
+        "issues": "https://github.com/alexk984/Chat-API/issues",
+        "wiki": "https://github.com/alexk984/Chat-API/wiki",
+        "source": "https://github.com/alexk984/Chat-API"
     },
     "autoload": {
         "classmap": [
