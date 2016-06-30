@@ -347,6 +347,8 @@ class Registration
       curl_setopt($ch, CURLOPT_URL, $url);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
       curl_setopt($ch, CURLOPT_HEADER, 0);
+      if (Constants::PROXY)
+        curl_setopt($ch, CURLOPT_PROXY, Constants::PROXY);
       curl_setopt($ch, CURLOPT_USERAGENT, Constants::WHATSAPP_USER_AGENT);
       curl_setopt($ch, CURLOPT_HTTPHEADER, ['Accept: text/json']);
       // This makes CURL accept any peer!
